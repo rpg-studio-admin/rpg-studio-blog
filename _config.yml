@@ -1,8 +1,8 @@
 title: RPG Studio Devlog
 description: Acompanhe o desenvolvimento do RPG Studio
 theme: jekyll-theme-cayman
-baseurl: ""
-url: "https://pedro-coleone.github.io/rpg-studio-blog" # ajuste se usar outro nome de usuário
+baseurl: "/rpg-studio-blog"
+url: "https://rpg-studio-admin.github.io/rpg-studio-blog"
 lang: pt-BR
 
 plugins:
@@ -11,7 +11,7 @@ plugins:
   - jekyll-sitemap
 
 author:
-  name: Pedro Coleone
-  url: https://github.com/pedro-coleone
+  name: RPG Studio
+  url: https://github.com/rpg-studio-admin
 
 markdown: kramdown
