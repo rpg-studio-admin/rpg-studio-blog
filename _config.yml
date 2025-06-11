@@ -1,8 +1,17 @@
 title: RPG Studio Devlog
 description: Acompanhe o desenvolvimento do RPG Studio
-baseurl: "" # Deixe vazio se for usar no domínio principal
-url: "https://rpg-studio-admin.github.io" # Substitua pelo seu usuário
-theme: minima
+theme: jekyll-theme-chirpy
+baseurl: ""
+url: "https://pedro-coleone.github.io/rpg-studio-blog" # ajuste se usar outro nome de usuário
+lang: pt-BR
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: Pedro Coleone
+  url: https://github.com/pedro-coleone
+
+markdown: kramdown
