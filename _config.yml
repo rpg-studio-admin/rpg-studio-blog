@@ -3,7 +3,6 @@ description: Acompanhe o desenvolvimento do RPG Studio
 theme: jekyll-theme-cayman
 baseurl: "/rpg-studio-blog"
 url: "https://rpg-studio-admin.github.io"
-
 lang: pt-BR
 
 plugins:
