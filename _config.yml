@@ -1,0 +1,8 @@
+title: RPG Studio Devlog
+description: Acompanhe o desenvolvimento do RPG Studio
+baseurl: "" # Deixe vazio se for usar no domínio principal
+url: "https://rpg-studio-admin.github.io" # Substitua pelo seu usuário
+theme: minima
+
+plugins:
+  - jekyll-feed
