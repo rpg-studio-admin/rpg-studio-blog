@@ -5,39 +5,45 @@
 /* --- Geral --- */
 body {
   font-family: 'Inter', sans-serif;
-  color: #2c2c2c; 
-  background-color: #F5EFE6; 
+  color: #333;
+  background-color: #fff;
 }
 a {
   color: #8e44ad;
   text-decoration: none;
   &:hover {
-    color: #5e2b78; 
+    color: #5e2b78;
   }
 }
 
-/* Títulos com fonte de livro de fantasia */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', serif;
-  color: #3d2352; 
+
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
+  color: #333; /* Cor padrão escura para todos os títulos internos */
 }
 
 /* --- Cabeçalho --- */
 .page-header {
-  background-color: #3d2352;
+  background-color: #4a2e66;
   background-image: none;
-  padding: 4rem 0;
+  padding: 3rem 0;
   border-bottom: none;
 }
-.project-name {
-  font-family: 'Lora', serif;
-  font-size: 3.5rem;
-  letter-spacing: 1px;
+
+/* CORREÇÃO PARA TAMANHO DO TÍTULO: 
+  Garante que o título principal tenha o mesmo tamanho em todas as páginas.
+*/
+.page-header .project-name {
+  font-size: 3rem; 
   color: #fff;
 }
-.project-tagline {
-  font-family: 'Inter', sans-serif;
-  color: #eadaff; 
+
+.page-header .project-tagline {
+  color: #eadaff;
   opacity: 0.8;
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -50,8 +56,6 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 1.5rem;
 }
 .main-nav .nav-link {
-  font-family: 'Lora', serif;
-  font-style: italic;
   color: #fff;
   opacity: 0.9;
   margin: 0 15px;
@@ -62,32 +66,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* --- Estrutura e Posts --- */
-.main-content {
-  background-color: #fff;
-  padding: 2rem 3rem;
-  border-radius: 5px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-}
-
+/* --- Lista de Posts --- */
 .posts .post {
-  border-bottom: 1px solid #EAEAEA; 
+  border-bottom: 1px solid #eee;
 }
-
 .posts .post .read-more {
-  font-family: 'Lora', serif;
-  font-style: italic;
   color: #8e44ad;
   font-weight: bold;
   background: none;
   padding: 0;
   &:hover {
     color: #5e2b78;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 .posts .post .read-more::after {
-  content: '...';
+  content: ' →';
 }
 
 /* --- Blocos de Código --- */
