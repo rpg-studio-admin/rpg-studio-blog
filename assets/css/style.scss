@@ -4,34 +4,41 @@
 
 /* --- Geral --- */
 body {
-  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #333;
-  background-color: #fdfdff;
+  font-family: 'Inter', sans-serif;
+  color: #2c2c2c; 
+  background-color: #F5EFE6; 
 }
 a {
-  color: #8e44ad; 
+  color: #8e44ad;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
   &:hover {
-    color: #5e2b78;
-    text-decoration: underline;
+    color: #5e2b78; 
   }
+}
+
+/* Títulos com fonte de livro de fantasia */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+  color: #3d2352; 
 }
 
 /* --- Cabeçalho --- */
 .page-header {
-  background-color: #4a2e66; 
+  background-color: #3d2352;
   background-image: none;
-  padding: 3rem 0;
+  padding: 4rem 0;
   border-bottom: none;
 }
 .project-name {
-  font-size: 3rem;
-  font-weight: bold;
+  font-family: 'Lora', serif;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
   color: #fff;
 }
 .project-tagline {
+  font-family: 'Inter', sans-serif;
   color: #eadaff; 
+  opacity: 0.8;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
@@ -39,69 +46,52 @@ a {
 /* --- Menu de Navegação --- */
 .main-nav {
   margin-top: 2rem;
-  border-top: 1px solid #6d4b8d; 
+  border-top: 1px solid #6d4b8d;
   padding-top: 1.5rem;
 }
 .main-nav .nav-link {
+  font-family: 'Lora', serif;
+  font-style: italic;
   color: #fff;
+  opacity: 0.9;
   margin: 0 15px;
-  font-weight: normal;
   text-decoration: none;
   &:hover {
-    text-decoration: underline;
+    opacity: 1;
+    text-decoration: none;
   }
 }
 
-/* --- Lista de Posts --- */
+/* --- Estrutura e Posts --- */
+.main-content {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
 .posts .post {
-  padding-bottom: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-bottom: 1px solid #eee;
-}
-.posts .post h3 a {
-  color: #333;
-  font-weight: bold;
-  &:hover {
-    color: #8e44ad; 
-  }
-}
-.posts .post .meta {
-  color: #888;
-  font-size: 0.9em;
-  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #EAEAEA; 
 }
 
-/* Ajuste minimalista para o botão "Leia Mais" */
 .posts .post .read-more {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #8e44ad; 
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #8e44ad;
   font-weight: bold;
-  font-size: 0.9em;
-  text-decoration: none;
-  border: none;
   background: none;
   padding: 0;
-
   &:hover {
     color: #5e2b78;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 .posts .post .read-more::after {
-  content: ' →'; 
+  content: '...';
 }
-
 
 /* --- Blocos de Código --- */
 pre, code {
-  background-color: #f5f2f8; 
+  background-color: #f7f3fb;
   border: 1px solid #e1dbe8;
-  border-radius: 6px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  font-size: 0.9em;
-}
-pre {
-  padding: 16px;
-  overflow: auto;
 }
