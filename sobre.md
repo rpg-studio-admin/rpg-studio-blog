@@ -18,5 +18,4 @@ Este projeto está sendo construído de forma aberta e transparente, com a parti
 Acompanhe nossa jornada e faça parte dessa construção:
 
 * **Acompanhe o Devlog:** [Leia nossos posts mais recentes]({{ site.baseurl }}/)
-* **Explore o Repositório:** [Veja nosso progresso no GitHub](https://github.com/rpg-studio-admin/rpg-studio-blog)
 * **Participe da Conversa:** *(em breve teremos um link para Discord ou outra rede social)*
