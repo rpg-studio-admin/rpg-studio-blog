@@ -2,81 +2,91 @@
 ---
 @import "{{ site.theme }}";
 
-/* --- Geral --- */
+/* --- Geral e Transições --- */
 body {
   font-family: 'Inter', sans-serif;
   color: #333;
   background-color: #fff;
 }
+a, .btn {
+  /* Adiciona transição suave para todas as mudanças de cor e tamanho */
+  transition: all 0.2s ease-in-out;
+}
 a {
-  color: #8e44ad;
+  color: #007acc;
   text-decoration: none;
   &:hover {
-    color: #5e2b78;
+    color: #005c99;
   }
 }
 
-
+/* --- Títulos --- */
 .main-content h1, 
 .main-content h2, 
 .main-content h3, 
-.main-content h4, 
-.main-content h5, 
-.main-content h6 {
-  color: #333; /* Cor padrão escura para todos os títulos internos */
+.main-content h4 {
+  color: #333;
 }
 
 /* --- Cabeçalho --- */
 .page-header {
-  background-color: #4a2e66;
+  background-color: #2f3c4a;
   background-image: none;
   padding: 3rem 0;
   border-bottom: none;
 }
-
-/* CORREÇÃO PARA TAMANHO DO TÍTULO: 
-  Garante que o título principal tenha o mesmo tamanho em todas as páginas.
-*/
 .page-header .project-name {
   font-size: 3rem; 
   color: #fff;
 }
-
 .page-header .project-tagline {
-  color: #eadaff;
-  opacity: 0.8;
+  color: #cdd4db; 
+  opacity: 0.9;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
-/* --- Menu de Navegação --- */
+/* --- Menu de Navegação com Efeitos --- */
 .main-nav {
   margin-top: 2rem;
-  border-top: 1px solid #6d4b8d;
+  border-top: 1px solid #5a6470;
   padding-top: 1.5rem;
 }
 .main-nav .nav-link {
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.8;
   margin: 0 15px;
   text-decoration: none;
-  &:hover {
-    opacity: 1;
-    text-decoration: none;
-  }
+  position: relative;
+}
+.main-nav .nav-link:hover {
+  opacity: 1;
+  transform: translateY(-2px); 
 }
 
-/* --- Lista de Posts --- */
+/* --- Lista de Posts com Data Estilizada --- */
 .posts .post {
   border-bottom: 1px solid #eee;
 }
+
+/* Estilo para a data e metadados */
+.post .meta, .post-meta {
+  color: #888;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.posts .post h3 a:hover {
+  color: #005c99;
+}
 .posts .post .read-more {
-  color: #8e44ad;
   font-weight: bold;
   background: none;
   padding: 0;
+  color: #007acc; 
   &:hover {
-    color: #5e2b78;
+    color: #005c99;
     text-decoration: underline;
   }
 }
@@ -86,6 +96,6 @@ a {
 
 /* --- Blocos de Código --- */
 pre, code {
-  background-color: #f7f3fb;
-  border: 1px solid #e1dbe8;
+  background-color: #f6f8fa;
+  border: 1px solid #dfe2e5;
 }

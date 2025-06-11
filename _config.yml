@@ -15,3 +15,5 @@ author:
   url: https://github.com/rpg-studio-admin
 
 markdown: kramdown
+
+locale: "pt-BR" 
