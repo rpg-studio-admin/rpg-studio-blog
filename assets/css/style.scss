@@ -6,59 +6,102 @@
 body {
   font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
+  background-color: #fdfdff;
 }
 a {
-  color: #007bff; text-decoration: none; transition: color 0.2s ease-in-out;
-  &:hover { color: #0056b3; text-decoration: underline; }
+  color: #8e44ad; 
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: #5e2b78;
+    text-decoration: underline;
+  }
 }
 
 /* --- Cabeçalho --- */
 .page-header {
-  background-color: #1c2833; background-image: none; padding: 3rem 0;
+  background-color: #4a2e66; 
+  background-image: none;
+  padding: 3rem 0;
+  border-bottom: none;
 }
 .project-name {
-  font-size: 3rem; font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
 }
 .project-tagline {
-  color: #bdc3c7; font-size: 1.2rem; margin-bottom: 2rem;
-}
-.btn {
-  background-color: #007bff; border: none;
-  &:hover { background-color: #0056b3; }
+  color: #eadaff; 
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 /* --- Menu de Navegação --- */
 .main-nav {
-  margin-top: 2rem; border-top: 1px solid #4f5b66; padding-top: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid #6d4b8d; 
+  padding-top: 1.5rem;
 }
 .main-nav .nav-link {
-  color: #fff; margin: 0 15px; font-weight: normal; text-decoration: none;
-  &:hover { text-decoration: underline; }
+  color: #fff;
+  margin: 0 15px;
+  font-weight: normal;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* --- Lista de Posts --- */
 .posts .post {
-  padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid #eee;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
 }
 .posts .post h3 a {
-  color: #333; font-weight: bold;
-  &:hover { color: #007bff; }
+  color: #333;
+  font-weight: bold;
+  &:hover {
+    color: #8e44ad; 
+  }
 }
 .posts .post .meta {
-  color: #888; font-size: 0.9em; margin-bottom: 0.5rem;
+  color: #888;
+  font-size: 0.9em;
+  margin-bottom: 0.5rem;
 }
+
+/* Ajuste minimalista para o botão "Leia Mais" */
 .posts .post .read-more {
-  display: inline-block; margin-top: 1rem; background-color: #f0f0f0; color: #333;
-  padding: 8px 15px; border-radius: 5px; font-weight: bold; font-size: 0.9em;
-  &:hover { background-color: #e0e0e0; text-decoration: none; color: #000; }
+  display: inline-block;
+  margin-top: 1rem;
+  color: #8e44ad; 
+  font-weight: bold;
+  font-size: 0.9em;
+  text-decoration: none;
+  border: none;
+  background: none;
+  padding: 0;
+
+  &:hover {
+    color: #5e2b78;
+    text-decoration: underline;
+  }
 }
+.posts .post .read-more::after {
+  content: ' →'; 
+}
+
 
 /* --- Blocos de Código --- */
 pre, code {
-  background-color: #f5f7fa; border: 1px solid #e1e4e8; border-radius: 6px;
+  background-color: #f5f2f8; 
+  border: 1px solid #e1dbe8;
+  border-radius: 6px;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   font-size: 0.9em;
 }
 pre {
-  padding: 16px; overflow: auto;
+  padding: 16px;
+  overflow: auto;
 }
