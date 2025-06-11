@@ -16,7 +16,7 @@ Este devlog servirá como nosso diário de bordo. Aqui, vamos documentar nosso p
 
 ### Nossa Filosofia: Foco no Jogo, Não na Ferramenta
 
-Muitas ferramentas digitais, por mais poderosas que sejam, acabam colocando uma camada de complexidade entre o mestre, os jogadores e a história. Nossa obsessão é remover essa barreira.
+Muitas ferramentas digitais, por mais poderosas que sejam, acabam colocando uma camada de complexidade entre o mestre, os jogadores e a história. Nossa foco é remover essa barreira.
 
 O design do RPG Studio segue um princípio simples: a melhor interface é aquela que você esquece que está usando. Estamos empenhados em criar um ambiente fluido e ágil, onde a **imersão** nunca é quebrada por um menu complicado ou uma funcionalidade confusa.
 
