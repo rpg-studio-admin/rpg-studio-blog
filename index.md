@@ -14,7 +14,7 @@ Bem-vindo ao devlog do RPG Studio. Aqui você encontrará atualizações sobre o
     <article class="post">
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <div class="meta">
-        <span class="date">{{ post.date | date: "%d de %B de %Y" }}</span>
+          <span class="date">{% include data_localizada.html date=post.date %}</span>
         </div>
       <div class="entry">
         {{ post.excerpt }}
