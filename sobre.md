@@ -18,4 +18,8 @@ Este projeto está sendo construído de forma aberta e transparente, com a parti
 Acompanhe nossa jornada e faça parte dessa construção:
 
 * **Acompanhe o Devlog:** [Leia nossos posts mais recentes]({{ site.baseurl }}/)
-* **Participe da Conversa:** *(em breve teremos um link para Discord ou outra rede social)*
+* **Siga-nos nas redes sociais:**
+    * **Instagram:** [@rpgstudiobrasil](https://www.instagram.com/rpgstudiobrasil)
+    * **TikTok:** [@rpgstudiobrasil](https://www.tiktok.com/@rpgstudiobrasil)
+    * **Twitter:** [@rpgstudiobrasil](https://x.com/rpgstudiobrasil)
+    * **Threads:** [@rpgstudiobrasil](https://www.threads.net/@rpgstudiobrasil)
